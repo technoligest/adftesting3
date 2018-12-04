@@ -1,0 +1,23 @@
+{
+	"name": "trigger5",
+	"properties": {
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1fdasfadsfdsafdadsfewrrrweqdafasdfdasfdsa",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2018-10-29T18:58:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

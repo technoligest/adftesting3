@@ -1,0 +1,32 @@
+{
+	"name": "SourceDataset_iux",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "SystemInformationID",
+				"type": "Byte"
+			},
+			{
+				"name": "Database Version",
+				"type": "String"
+			},
+			{
+				"name": "VersionDate",
+				"type": "DateTime"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "DateTime"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[BuildVersion]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

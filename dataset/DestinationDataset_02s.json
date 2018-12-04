@@ -1,0 +1,20 @@
+{
+	"name": "DestinationDataset_02s",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "lon",
+				"type": "Decimal"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[HindcastInfo]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,69 @@
+{
+	"name": "pipeline_13",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"parameters": {
+			"fdsa": {
+				"type": "String",
+				"defaultValue": "fdas"
+			},
+			"fds": {
+				"type": "String",
+				"defaultValue": "dsaf"
+			},
+			"dweq": {
+				"type": "String",
+				"defaultValue": "qer"
+			},
+			"qwer": {
+				"type": "String",
+				"defaultValue": "qewr"
+			},
+			"rqew": {
+				"type": "String",
+				"defaultValue": "gvsd"
+			},
+			"gfsd": {
+				"type": "String",
+				"defaultValue": "wretq"
+			},
+			"gwert": {
+				"type": "String",
+				"defaultValue": "wtery"
+			},
+			"ctw": {
+				"type": "String",
+				"defaultValue": "xw"
+			},
+			"wtrx": {
+				"type": "String",
+				"defaultValue": "qtrew"
+			},
+			"wxer": {
+				"type": "String",
+				"defaultValue": "sqtr"
+			},
+			"wtres": {
+				"type": "String",
+				"defaultValue": "rq"
+			},
+			"wert": {
+				"type": "String",
+				"defaultValue": "qxrew"
+			},
+			"tqrv w": {
+				"type": "String",
+				"defaultValue": "xqtwe"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

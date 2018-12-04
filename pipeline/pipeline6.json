@@ -1,0 +1,21 @@
+{
+	"name": "pipeline6",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"typeProperties": {
+					"waitTimeInSeconds": 100
+				}
+			}
+		],
+		"parameters": {
+			"yaser": {
+				"type": "String",
+				"defaultValue": "yaser"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
