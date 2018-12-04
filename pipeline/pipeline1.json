@@ -47,6 +47,13 @@
 				"typeProperties": {
 					"waitTimeInSeconds": 1
 				}
+			},
+			{
+				"name": "Wait5",
+				"type": "Wait",
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
 			}
 		]
 	},
